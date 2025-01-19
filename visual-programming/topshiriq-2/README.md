@@ -47,10 +47,6 @@ Afzalliklari:
 ### Yosh kiritish va unga birni qo‘shib chiqaradigan dastur
 
 ##### **Blok-sxema ko‘rinishi:**
-
-```flow
-[Start] → [Enter age] → [age = age + 1] → [Display age] → [End]
-```
 ![Example Flowchart](./topshiriq-2.1.svg)
 
 ##### **Psevdocod:**
@@ -69,9 +65,7 @@ END
 
 ##### **Blok-sxema ko‘rinishi:**
 
-```plaintext
-[Start] → [Enter a, b] → [Call ADD module] → [Display c] → [End]
-```
+![Example Flowchart](./topshiriq-2.2.svg)
 
 ##### **Psevdocod:**
 ```plaintext
