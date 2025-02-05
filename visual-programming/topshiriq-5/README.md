@@ -3,16 +3,12 @@
 ##### **Blok-sxema ko‘rinishi:**
 ![Example Flowchart](./topshiriq-5.1.svg)
 
-##### **Psevdocod:**
-
 ---
 
 ### **2. 1 dan 100 gacha 3 ga ham 5 ga ham karrali bo’lgan butun sonlar yig’indisini chiqaruvchi dastur blok-sxemasini chizish.**
 
 ##### **Blok-sxema ko‘rinishi:**
 ![Example Flowchart](./topshiriq-5.2.svg)
-
-##### **Psevdocod:**
 
 ---
 
@@ -21,8 +17,6 @@
 ##### **Blok-sxema ko‘rinishi:**
 ![Example Flowchart](./topshiriq-5.3.svg)
 
-##### **Psevdocod:**
-
 ---
 
 ### **4. Ko’paytirish jadvalini chiqaradigan dastur blok-sxemasini chizish.**
@@ -30,13 +24,33 @@
 ##### **Blok-sxema ko‘rinishi:**
 ![Example Flowchart](./topshiriq-5.4.svg)
 
-##### **Psevdocod:**
-
 ---
 
-### **5. Pastda ko’rsatilgan piramida ko’rinishidagi shaklni chiqaradigan dastur blok sxemasi chizish (kiruvchi ma’lumot qatorlar soni).**
+### **5. Piramida ko’rinishidagi shaklni chiqaradigan dastur blok sxemasi chizish (kiruvchi ma’lumot qatorlar soni).**
 
 ##### **Blok-sxema ko‘rinishi:**
 ![Example Flowchart](./topshiriq-5.5.svg)
 
-##### **Psevdocod:**
+##### **JS code:**
+```javascript
+function paintATree(num) {
+let point = ""
+for(let i = 1; i <= num; i++) {
+    let space = ""
+    for (let j = 1; j <= num - i; j++) {
+        space = space + " "
+    }
+    point = point + (point === "" ? "*" : "**")
+    console.log(space + point)
+  }
+}
+paintATree(5)
+```
+##### **Result:**
+```plaintext
+    *
+   ***
+  *****
+ *******
+*********
+```
