@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    font-family: sans-serif;
+    background-color: aqua;
+    background-image: url('https://cdn.visualwilderness.com/wp-content/uploads/2019/12/Norway-Landscape-Photography-3.jpg');
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.cards {
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    opacity: 0.9;
+    height: 300px;
+    display: flex;
+    margin: 0 20px;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+}
+
+.card:nth-child(1) {
+    background: linear-gradient(238deg, rgba(2,0,36,1) 0%, rgba(119,16,199,0.9626444327731093) 0%, rgba(255,254,0,1) 100%);
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(238deg, rgba(2,0,36,1) 0%, rgba(13,175,120,1) 0%, rgba(255,254,0,1) 100%);
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(238deg, rgba(2,0,36,1) 0%, rgba(221,23,23,1) 0%, rgba(255,199,0,1) 100%);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 2em;
+}
