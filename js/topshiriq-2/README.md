@@ -21,10 +21,11 @@ function reverseNumber(num) {
 
 // 4. 3 xonali sonni o‘nlar va birlikni almashtirish funksiyasi
 function swapDigits(num) {
-    if (num.length !== 3) {
+    let str = num.toString();
+    if (str.length !== 3) {
         return "3 xonali son kiriting!";
     }
-    let arr = num.toString().split("");
+    let arr = str.split("");
     [arr[1], arr[2]] = [arr[2], arr[1]]; // O‘nlar va birlik xonalarini almashtirish
     let swappedNum = arr.join("");
     return "Almashtirilgan son: " + swappedNum;
@@ -32,10 +33,11 @@ function swapDigits(num) {
 
 // 5. 4 xonali son raqamlari yig‘indisini hisoblash funksiyasi
 function sumDigits(num) {
-    if (num.length !== 4) {
+    let str = num.toString();
+    if (str.length !== 4) {
         return "4 xonali son kiriting!";
     }
-    let sum = num.toString().split("").reduce((acc, digit) => acc + parseInt(digit), 0);
+    let sum = str.split("").reduce((acc, digit) => acc + parseInt(digit), 0);
     return "Raqamlar yig‘indisi: " + sum;
 }
 ```

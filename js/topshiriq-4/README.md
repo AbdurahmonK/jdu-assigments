@@ -21,14 +21,13 @@ function checkPrime(num) {
 
 // 3. Start dan stop gacha step bilan yig‘indini topish
 function generateSum(start, stop, step) {
-    let sum = 0, sequence = "";
+    let sum = 0;
             
     for (let i = start; i <= stop; i += step) {
         sum += i;
-        sequence += (sequence ? " + " : "") + i;
     }
 
-    return `${sequence} = ${sum}`;
+    return sum;
 }
 
 // 4. Fibonacci sonini topish
@@ -48,13 +47,12 @@ function findFibonacci(a, b, n) {
 
 // 5. Yig‘indi: 1^k + 2^k + ... + N^k
 function calculateSum(n, k) {
-    let sum = 0, sequence = "";
+    let sum = 0;
 
     for (let i = 1; i <= n; i++) {
         sum += Math.pow(i, k);
-        sequence += (sequence ? " + " : "") + `${i}^${k}`;
     }
 
-    return `${sequence} = ${sum}`;
+    return sum;
 }
 ```
