@@ -5,109 +5,119 @@ body {
 }
 
 .container {
-    box-sizing: border-box;
-}
-
-.header {
-    padding: 5px;
-    color: white;
-    text-align: center;
-    background-color: green;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-}
-
-.sidebar {
-    width: 200px;
-    padding: 10px;
-    color: white;
-    margin-right: 5px;
-    background-color: red;
-}
-
-.main-content {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-.top-section {
-    padding: 10px;
-    color: white;
-    margin-bottom: 5px;
-    background-color: magenta;
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow;
 }
 
-.middle-section {
-    padding: 10px;
+.content {
     display: flex;
-    color: white;
-    margin-bottom: 5px;
-    background-color: orange;
+    margin: 10px 0;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex-grow: 2;
+    background-color: red;   
+}
+
+.main-content {
+    flex-grow: 10;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    background-color:hotpink;
+}
+
+.middle {
+    gap: 10px;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.middle-section div {
-    flex-grow: 1;
-    margin: 0 5px;
-    padding: 10px;
-    text-align: center;
+.orange1 {
+    flex: 1;
+    height: 300px;
+    background-color: orange;
 }
 
-.bottom-section {
-    background-color: blue;
-    color: white;
-    padding: 10px;
+.orange2 {
+    flex: 1;
+    height: 300px;
+    background-color: orange;
+}
+
+.bottom {
+    gap: 10px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
 }
 
-.bottom-section div {
-    background-color: darkblue;
-    padding: 10px;
-    text-align: center;
+.blue {
+    height: 225px;
+    background-color: blue;
 }
 
 .footer {
-    background-color: green;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: greenyellow;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .content {
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .middle {
         flex-direction: column;
+    }
+
+    .orange1, .orange2 {
+        flex: initial;
+        height: 250px;
+    }
+
+    .bottom {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color:aquamarine;
+    }
+
+    .main-content {
+        margin-left: 0px;
     }
 
     .sidebar {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 5px;
+        flex-grow: 0; 
     }
 
-    .middle-section {
-        flex-direction: column;
+    .top {
+        height: 80px;
+        background-color:hotpink;
     }
 
-    .middle-section div {
-        margin: 5px 0;
+    .orange1, .orange2 {
+        height: 200px;
     }
 
-    .bottom-section {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .bottom-section {
-        grid-template-columns: 1fr;
+    .bottom {
+        grid-template-columns: 1fr 1fr;
     }
 }
