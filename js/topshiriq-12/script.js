@@ -48,7 +48,7 @@ function getImageLink(type) {
       "scissors": "images/scissors.png"
     };
     return imageMap[type] || "scissors.png";
-  }
+}
 
 rockButton.addEventListener('click', () => {
     const compChoice = getComputerChoice();

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creative Music Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="content">
+        <div class="player">
+            <div class="head">
+                <div>
+                    <h1 class="time"></h1>
+                    <span class="day"></span>
+                </div>
+                <div class="user">
+                    <div class="avatar"></div>
+                    <div class="username">#kabo<br>Abdurahmon</div>
+                </div>
+            </div>
+            <div class="song-info">
+                <div class="song-content">
+                    <h1 class="author-name"></h1>
+                    <p class="album-name"></p>
+                    <img class="album-image" alt=""/>
+                </div>
+                <textarea class="song-text" placeholder="Song text" name="song-text"></textarea>
+            </div>
+            <div class="controls">
+                <audio id="audio"></audio>
+                <div class="progress-container">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <div class="buttons">
+                    <button id="prev"><i class="fa fa-backward"></i></button>
+                    <button id="play"><i class="fa fa-play"></i></button>
+                    <button id="next"><i class="fa fa-forward"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="song-container">
+            <h1>My Songs 🎶 ❤️</h1>
+            <div class="song-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
