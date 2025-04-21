@@ -174,6 +174,7 @@ function updateTime() {
   
     let hours = now.getHours();
     const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
   
     hours = hours % 12;
     hours = hours === 0 ? 12 : hours;
@@ -182,11 +183,11 @@ function updateTime() {
     const monthName = months[now.getMonth()];
     const dayOfMonth = now.getDate();
   
-    time.textContent = `${hours}:${minutes}`
+    time.textContent = `${hours}:${minutes}:${seconds}`
     day.textContent = `${dayName}, ${monthName} ${dayOfMonth}`
 }
 
-// setInterval(updateTime, 1000);
+setInterval(updateTime, 1000);
 
 loadSong(songs[currentSongIndex]);
 
