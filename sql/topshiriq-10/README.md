@@ -1,5 +1,3 @@
------
-
 ## 1\. SQLda INDEX nima va ularning qanday afzalliklari bor?
 
 **INDEX (indeks)** bu ma'lumotlar bazasida jadvaldagi ma'lumotlarni tezroq topish uchun ishlatiladigan maxsus ma'lumotlar strukturasi. Uni kitobning mundarijasiga (indeksiga) o'xshatish mumkin: kitob mundarijasidan kerakli mavzuni tez topganingiz kabi, indeks ham ma'lumotlar bazasida kerakli qatorlarni juda tez topishga yordam beradi. Indekslar ma'lum bir ustun yoki ustunlar kombinatsiyasidagi qiymatlarni tartiblab, ularga tezkor kirishni ta'minlaydi.

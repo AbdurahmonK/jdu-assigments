@@ -1,6 +1,4 @@
------
-
-Sizning topshiriqlaringiz **Trigger**larga oid bo'lib, ular ma'lum bir hodisa (masalan, ma'lumot qo'shish yoki o'zgartirish) sodir bo'lganda avtomatik ravishda ishga tushadigan maxsus saqlangan protseduralardir. Quyidagi qadamlarda siz so'ragan ma'lumotlar bazasi va triggerlarni yaratamiz.
+**Trigger**lar, ma'lum bir hodisa (masalan, ma'lumot qo'shish yoki o'zgartirish) sodir bo'lganda avtomatik ravishda ishga tushadigan maxsus saqlangan protseduralardir.
 
 -----
 

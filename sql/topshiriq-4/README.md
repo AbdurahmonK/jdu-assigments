@@ -1,5 +1,3 @@
------
-
 ## 1\. Amazon ma'lumotlar bazasi ichida `mahsulotlar` nomli jadvalga 5 ta har xil mahsulot qo'shish
 
 Avvalambor, `amazon` ma'lumotlar bazasini faol holatga keltiramiz. Keyin `INSERT INTO` buyrug'idan foydalanib `mahsulotlar` jadvaliga 5 ta yangi mahsulot kiritamiz:

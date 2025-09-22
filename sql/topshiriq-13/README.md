@@ -1,9 +1,3 @@
------
-
-Sizning 13-dars bo'yicha topshiriqlaringizda ma'lumotlarni guruhlash (`GROUP BY`) va saralash (`ORDER BY`) funksiyalaridan foydalanish talab qilinadi. Keling, har bir topshiriqni bosqichma-bosqich bajaramiz.
-
------
-
 ## 1\. Universitet ma'lumotlar bazasini va `talabalar` jadvalini yaratish
 
 Avval **`universitet`** nomli ma'lumotlar bazasini yaratamiz. So'ngra uning ichida **`talabalar`** nomli jadvalni tuzamiz, u `id`, `ismi`, `familiyasi`, `viloyati` va `yonalishi` ustunlariga ega bo'ladi. Keyin bu jadvalni 20 ta namunaviy talaba ma'lumotlari bilan to'ldiramiz.

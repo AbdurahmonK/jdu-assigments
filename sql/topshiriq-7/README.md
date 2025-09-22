@@ -1,5 +1,3 @@
------
-
 ## 1\. `groups` nomli jadval yaratish
 
 `ums` ma'lumotlar bazasida **`groups`** nomli jadvalni yaratamiz. Bu jadvalda guruhlarning identifikatori (`group_id`) va nomi (`group_name`) bo'ladi. `group_id` ustuniga **PRIMARY KEY** cheklovini o'rnatamiz, bu uni jadvaldagi har bir qator uchun noyob qiladi.

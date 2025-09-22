@@ -1,6 +1,4 @@
------
-
-Sizning 14-dars bo'yicha topshiriqlaringizda **Tranzaksiyalar (Transactions)** tushunchasi qo'llaniladi. Tranzaksiya — bu bitta mantiqiy ish birligi sifatida bajariladigan SQL buyruqlarining ketma-ketligidir. Uning asosiy xususiyatlari **ACID** (Atomicity, Consistency, Isolation, Durability) tamoyillaridir. Ayniqsa, Atomicity (Atomlik) muhim, ya'ni tranzaksiya to'liq bajariladi yoki hech qachon bajarilmaydi (ya'ni, xatolik yuz bersa, barcha o'zgarishlar bekor qilinadi).
+Tranzaksiya — bu bitta mantiqiy ish birligi sifatida bajariladigan SQL buyruqlarining ketma-ketligidir. Uning asosiy xususiyatlari **ACID** (Atomicity, Consistency, Isolation, Durability) tamoyillaridir. Ayniqsa, Atomicity (Atomlik) muhim, ya'ni tranzaksiya to'liq bajariladi yoki hech qachon bajarilmaydi (ya'ni, xatolik yuz bersa, barcha o'zgarishlar bekor qilinadi).
 
 -----
 

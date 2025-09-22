@@ -1,4 +1,3 @@
----
 ## 1. Ma'lumotlar bazasi deganda nimani tushunasiz?
 
 **Ma'lumotlar bazasi** (inglizcha: **Database**) — bu ma'lumotlarni tashkil etish, saqlash va boshqarish uchun mo'ljallangan tizimli to'plam. Oddiy qilib aytganda, u juda ko'p ma'lumotlarni tartibli joylashtirib, ularni osongina topish, o'zgartirish yoki o'chirish imkonini beruvchi joydir. Ma'lumotlar bazalari kompaniyalarda mijozlar ma'lumotlaridan tortib, veb-saytlardagi mahsulotlar ro'yxatigacha bo'lgan har qanday turdagi ma'lumotlarni saqlash uchun ishlatiladi.
@@ -19,6 +18,4 @@ Relyatsion ma'lumotlar bazasining asosiy xususiyati shundaki, jadvallar orasida 
 * Yangi ma'lumotlarni qo'shishingiz (INSERT)
 * Mavjud ma'lumotlarni o'zgartirishingiz (UPDATE)
 * Ma'lumotlarni o'chirishingiz (DELETE)
-* Ma'lumotlar bazasi tuzilmasini yaratishingiz yoki o'zgartirishingiz (CREATE, ALTER, DROP)
-
-mumkin. SQL juda kuchli va keng qo'llaniladigan til bo'lib, deyarli barcha relyatsion ma'lumotlar bazasi tizimlari (masalan, MySQL, PostgreSQL, Oracle, SQL Server) uni qo'llab-quvvatlaydi.
+* Ma'lumotlar bazasi tuzilmasini yaratishingiz yoki o'zgartirishingiz (CREATE, ALTER, DROP) mumkin. SQL juda kuchli va keng qo'llaniladigan til bo'lib, deyarli barcha relyatsion ma'lumotlar bazasi tizimlari (masalan, MySQL, PostgreSQL, Oracle, SQL Server) uni qo'llab-quvvatlaydi.

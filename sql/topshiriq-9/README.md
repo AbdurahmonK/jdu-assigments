@@ -1,9 +1,3 @@
------
-
-MySQL'da bir nechta jadvallarni bog'lash orqali murakkab ma'lumotlarni olish juda muhim. Quyidagi topshiriqlarni bajarish uchun avvalo kerakli ma'lumotlar bazasini yaratib, jadvallarni to'ldirib olamiz.
-
------
-
 ## Ma'lumotlar bazasini yaratish va jadvallarni to'ldirish
 
 Sizning topshiriqlaringiz uchun `dars9_db` nomli yangi ma'lumotlar bazasi yaratamiz. Keyin har bir topshiriqda aytib o'tilgan jadvallarni yaratib, ularga namunaviy ma'lumotlarni kiritamiz.

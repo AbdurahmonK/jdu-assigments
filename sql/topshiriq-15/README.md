@@ -1,8 +1,4 @@
------
-
-Sizning 15-dars bo'yicha topshiriqlaringiz **MySQL foydalanuvchilari (Users)** va **ruxsatlarni (Privileges)** boshqarishga bag'ishlangan. Bu ma'lumotlar bazasi xavfsizligining muhim qismi bo'lib, kim qanday ma'lumotlarga kira olishini va qanday amallarni bajarishini nazorat qilish imkonini beradi.
-
-Keling, avvalgi darsda yaratilgan `bank` ma'lumotlar bazasidan foydalangan holda ushbu topshiriqlarni bajaramiz.
+**(Privileges) ruxsatlar** bu ma'lumotlar bazasi xavfsizligining muhim qismi bo'lib, kim qanday ma'lumotlarga kira olishini va qanday amallarni bajarishini nazorat qilish imkonini beradi.
 
 -----
 

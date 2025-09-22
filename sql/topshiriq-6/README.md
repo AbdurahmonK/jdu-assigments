@@ -1,5 +1,3 @@
------
-
 ## 1\. `ums` nomli ma'lumotlar bazasini yaratish
 
 `ums` (universitet ma'lumotlar tizimi) nomli ma'lumotlar bazasini yaratamiz. MySQL Workbench'da yangi so'rov oynasini oching va quyidagi buyruqni kiriting:

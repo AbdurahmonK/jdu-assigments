@@ -1,5 +1,3 @@
------
-
 ## 1\. `mahsulotlar` jadvalidagi 3 ta mahsulotning sonini (narxini) 0 ga o'zgartirish
 
 Berilgan topshiriqda "sonini 0 ga o'zgartirish" deyilgan, biroq avvalgi topshiriqlarda `mahsulotlar` jadvalida mahsulot soni (`quantity` yoki `stock`) ustuni yaratilmagan, balki `narxi` ustuni mavjud. Shu sababli, men **mahsulotlarning narxini 0 ga o'zgartirish** deb tushundim. Agar sizning jadvallingizda `soni` degan ustun bo'lsa, o'zgartirishingiz mumkin.
@@ -129,5 +127,3 @@ WHERE kategoriya_nomi = 'Kitoblar';
 ```
 
 **Izoh:** `WHERE kategoriya_nomi = 'Eski Nom'` qismida siz o'zgartirmoqchi bo'lgan kategoriyaning hozirgi nomini kiritishingiz shart. `SET kategoriya_nomi = 'Yangi Nom'` qismida esa yangi nomni kiritasiz.
-
-Ushbu amallar bajarilgandan so'ng, sizning ma'lumotlar bazangizdagi jadvallar kerakli tarzda yangilanadi. Yana qanday savollaringiz bor?

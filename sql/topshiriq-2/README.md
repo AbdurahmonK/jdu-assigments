@@ -1,5 +1,3 @@
------
-
 ## 1\. MySQL Server va MySQL Workbench dasturiy muhitini o'rnatish va sozlash
 
 MySQL Server va MySQL Workbenchni o'rnatish uchun quyidagi bosqichlarni bajarishingiz kerak:
@@ -67,5 +65,3 @@ Yaratilgan 10 ta ma'lumotlar bazasidan 4 tasini o'chirish uchun quyidagi amallar
     **Eslatma:** `DROP DATABASE` buyrug'i ma'lumotlar bazasini va uning ichidagi barcha jadvallar, ma'lumotlar va boshqa ob'ektlarni butunlay o'chirib tashlaydi. Bu qaytarib bo'lmaydigan amaldir, shuning uchun uni ehtiyotkorlik bilan bajaring\!
 
 3.  **Yangilash:** SCHEMAS bo'limini yangilash uchun o'ng tugmani bosib "Refresh All" ni tanlang. Endi siz o'chirilgan 4 ta ma'lumotlar bazasi yo'qligini ko'rishingiz mumkin.
-
-Bu amallar MySQL Server va Workbench bilan ishlashning asosiy bosqichlarini qamrab oladi. Keyingi topshiriqlarda ma'lumotlar bazalari ichida jadvallar yaratish va ma'lumotlar bilan ishlashni o'rganishingiz mumkin. Savollaringiz bormi?

@@ -1,5 +1,3 @@
------
-
 ## 1\. Amazon nomli ma'lumotlar bazasini yaratish
 
 Avvalambor, bizning barcha ma'lumotlarimizni saqlash uchun `amazon` nomli yangi ma'lumotlar bazasini yaratamiz. MySQL Workbench'da yangi so'rov oynasini oching va quyidagi buyruqni kiriting:
@@ -81,5 +79,3 @@ Bu jadvalda:
 
   * `ID INT PRIMARY KEY AUTO_INCREMENT`: Kategoriya uchun noyob identifikator.
   * `kategoriya_nomi VARCHAR(100) NOT NULL UNIQUE`: Kategoriya nomini saqlaydi. **`UNIQUE`** cheklovi har bir kategoriya nomining noyob bo'lishini ta'minlaydi, ya'ni bir xil nomli ikkita kategoriya bo'lishiga yo'l qo'ymaydi. **`NOT NULL`** esa bo'sh qoldirilmasligini ta'minlaydi.
-
-Bu buyruqlarni bajarib bo'lgach, `amazon` ma'lumotlar bazasida uchta yangi jadval: `mahsulotlar`, `mijozlar` va `kategoriyalar` paydo bo'ladi. Endi siz ushbu jadvallarga ma'lumotlar kiritishni boshlashingiz mumkin.

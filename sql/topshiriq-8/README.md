@@ -1,9 +1,3 @@
------
-
-Siz bergan topshiriqlarni bajarish uchun avval ma'lumotlar bazasini yaratib, kerakli jadvallarni to'ldirib olamiz. Keyin har bir topshiriq uchun tegishli SQL so'rovlarini yozamiz.
-
------
-
 ## Ma'lumotlar bazasini yaratish va jadvallarni to'ldirish
 
 Avvalo, `dars8_db` nomli ma'lumotlar bazasini yaratamiz va topshiriqlarda aytilganidek `Students`, `Enrollments`, `Authors`, `Books`, `Departments`, `Employees` jadvallarini yaratib, ularni namunaviy ma'lumotlar bilan to'ldiramiz.

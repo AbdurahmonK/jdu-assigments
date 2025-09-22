@@ -1,5 +1,3 @@
------
-
 ## 1\. SQLda View'lar nima va bizga nima uchun kerak bo'ladi?
 
 **View (ko'rinish)** SQL ma'lumotlar bazasida saqlanadigan virtual jadvaldir. Uning jismoniy jadvallardan farqi shundaki, View ma'lumotlarni o'zida saqlamaydi, balki bir yoki bir nechta jadvallardan ma'lumotlarni **dinamik ravishda** olish uchun ishlatiladigan oldindan belgilangan SQL so'rovidir. Boshqacha qilib aytganda, View sizning so'rovingizga asoslangan jadval "oynasi" bo'lib, har safar unga murojaat qilganingizda, ostida yotgan SQL so'rovi qayta bajariladi va natijalar ko'rsatiladi.
