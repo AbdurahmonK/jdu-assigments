@@ -86,7 +86,7 @@ ORDER BY familiyasi ASC; -- ASC alifbo tartibida (A-Z) saralashni anglatadi
 
 **Izoh:**
 
-  * `ORDER BY familiyasi ASC`: Natijalarni `familiyasi` ustuni bo'yicha o'suvchi (ASCending) tartibda saralaydi. `ASC` kalit so'zi ixtiyoriy, chunki u `ORDER BY` ning sukut bo'yicha qiymatidir.
+  * `ORDER BY familiyasi ASC`: Natijalarni `familiyasi` ustuni bo'yicha o'suvchi (ASCending) tartibda saralaydi.
 
 -----
 

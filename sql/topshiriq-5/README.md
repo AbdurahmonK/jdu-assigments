@@ -1,7 +1,5 @@
 ## 1\. `mahsulotlar` jadvalidagi 3 ta mahsulotning sonini (narxini) 0 ga o'zgartirish
 
-Berilgan topshiriqda "sonini 0 ga o'zgartirish" deyilgan, biroq avvalgi topshiriqlarda `mahsulotlar` jadvalida mahsulot soni (`quantity` yoki `stock`) ustuni yaratilmagan, balki `narxi` ustuni mavjud. Shu sababli, men **mahsulotlarning narxini 0 ga o'zgartirish** deb tushundim. Agar sizning jadvallingizda `soni` degan ustun bo'lsa, o'zgartirishingiz mumkin.
-
 Quyidagi SQL buyruqlari yordamida biz 3 ta mahsulotning narxini 0 ga o'zgartiramiz:
 
 ```sql
@@ -22,8 +20,6 @@ WHERE ID IN (1, 2, 3);
 -----
 
 ## 2\. `mahsulotlar` jadvalidagi narxi 0 ga teng bo'lgan 3 ta mahsulotni o'chirish
-
-Narxi 0 ga teng bo'lgan (yoki sizning holatingizda soni 0 ga teng bo'lgan) mahsulotlarni jadvaldan o'chirish uchun `DELETE` buyrug'idan foydalanamiz:
 
 ```sql
 USE amazon;

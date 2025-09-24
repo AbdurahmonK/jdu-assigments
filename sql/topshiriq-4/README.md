@@ -56,5 +56,3 @@ INSERT INTO kategoriyalar (kategoriya_nomi) VALUES
 ```
 
 **Eslatma:** `kategoriya_nomi` ustunida `UNIQUE` cheklovi borligini unutmang. Bu shuni anglatadiki, siz bir xil nomdagi ikkita kategoriyani qo'sha olmaysiz. Agar qo'shishga harakat qilsangiz, xatolik yuz beradi.
-
-Bu buyruqlarni MySQL Workbench'da bajarib bo'lgach, sizning jadvallaringizda ma'lumotlar paydo bo'ladi. Ularni ko'rish uchun har bir jadval ustiga o'ng tugmani bosib, "Select Rows - Limit 1000" ni tanlashingiz mumkin.
